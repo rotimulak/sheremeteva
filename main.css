@@ -124,7 +124,7 @@ body {
     position: relative;
     width: 410px;
     height: 57px;
-    margin: 12px auto 96px auto;
+    margin: 24px auto 60px auto;
 }
 .mstocenter div {
     position: absolute;
@@ -172,6 +172,7 @@ body {
     text-transform: uppercase;
     font-size: 20px;
     color: #0A00C2;
+    font-weight: bold;
     letter-spacing: 3px;
     font-family: "PT Sans";
     /*text-decoration: underline;*/
@@ -186,7 +187,8 @@ body {
     color: #444;
     margin-bottom: 16px;
     font-family: "PT Serif";
-    background: url("images/bgtext.png") no-repeat;
+    font-weight: 900;
+    background: url("images/bgtext.jpg") 25% no-repeat;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -198,11 +200,93 @@ body {
     color: #444;
     font-family: "PT Sans";
 }
+#td4 a {
+    text-decoration: none;
+    color: #0A00C2;
+    font-size: 20px;
+}
 #td2 {
-    width: 44%;
+    width: 53%;
     text-align: left;
 }
 #td3 {
-    width: 44%;
+    width: 53%;
     text-align: left;
+}
+.devider {
+    color: #666;
+    width: 53%;
+    margin-bottom: 40px;
+}
+.td4 {
+    margin-top: -20px;
+}
+.price {
+    color: black;
+    letter-spacing: 1px;
+    font-weight: 900;
+}
+.feedbackform .input {
+    font-family: "PT Sans";
+    height: 50px;
+    width: 66%;
+    font-size: 18px;
+    color: #444;
+    border: 0;
+    padding-left: 8px;
+}
+.feedbackform .button {
+    height: 50px;
+    width: 140px;
+    font-size: 18px;
+    color: #0A00C2;
+    background: transparent;
+    border: 0;
+    /*font-weight: bold;*/
+    font-family: "PT Sans";
+    /*padding-left: 160px;*/
+}
+.tdescription #td4 a {
+    color: #0A00C2;
+}
+#deviderinplace {
+    margin-bottom: 20px;
+}
+.fotoblock {
+    text-align: center;
+}
+.fotoblock img {
+    width: 160px;
+    padding: 12px;
+}
+.educationheader {
+    font-family: 'PT Sans';
+    font-size: 20px;
+    text-align: center;
+    margin-top: 4px;
+    color: #3D1500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.educationdescription {
+    font-family: 'PT Sans';
+    font-size: 20px;
+    text-align: center;
+    margin-top: 4px;
+    color: #3D1500;
+}
+.footer {
+    margin-top: 20px;
+    padding-bottom: 40px;
+    height: 100px;
+    vertical-align: middle;
+    text-align: center;
+    background: #333;
+}
+#spacer {
+    height: 50px;
+}
+#vkonblack svg{
+    fill: green;
+    color: green;
 }
